@@ -1,0 +1,128 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}	
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(img/fondo.jpg) no-repeat center center/cover;
+}
+/* Div externo */
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    width: 80vh;
+    max-width: 1000px;
+    background-color: rgba(226, 192, 41, 0.459);
+    border:  4px solid rgb(250, 250, 250);
+    border-radius: 10px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h1 {
+    font-size: 4rem;
+    width: 100%;
+    margin: 20px 40px;
+}
+
+.titulo {
+    font-size: 4rem;
+    width: auto;
+    margin: 20px 40px;
+    justify-content: center;
+}
+
+.juegos{
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0;
+    cursor: pointer;
+    
+}
+
+ul {
+    height: 100%;
+    width: 50%;
+}
+
+
+.fondo-1 {
+    background-color: rgba(69, 190, 21, 0.507);   
+}
+.fondo-1:hover {
+    background-color: rgba(72, 247, 3, 0.507);   
+}
+
+.fondo-2 {
+    background-color: rgba(235, 231, 179, 0.507);
+}
+.fondo-2:hover {
+    background-color: rgba(241, 229, 60, 0.61);   
+}
+.fondo-3 {
+    background-color: rgba(29, 153, 224, 0.514);
+}
+.fondo-3:hover {
+    background-color: rgba(6, 145, 226, 0.719);   
+}
+
+.fondo-4 {
+    background-color: rgba(255, 239, 10, 0.507);
+}
+
+/* Div interno */
+#citas {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin: 25px 90px;
+    font-family: 'Courgette', cursive;
+}
+
+#autor {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10px;
+    margin: 15px 20px;
+    font-family: 'Courgette', cursive;
+}
+
+#container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    width: 80vh;
+    max-width: 800px;
+   
+}

@@ -1,0 +1,29 @@
+Manipular DOM: 4 básicos
+getElementById
+getElementByClassName
+querySelector
+querySelectorAll
+
+    // const juegos = document.getElementById('lista-juegos');
+    //el texto
+    console.log(juegos.innerText);
+    //HTML como texto
+    console.log(juegos.innerHTML);
+
+    //tocar un elemento
+    const titulo = document.getElementById('titulo');
+    titulo.innerText = "Juegos de Halo";
+
+    //Agregar un elemento
+    //Llamo lugar donde quiero agregar elemento
+    const listaDeJuegos = document.getElementById('lista-juegos');
+    //Creo un nuevo elemento
+    const nuevoJuego = document.createElement('li');
+    //Agrego estilo y luego el contenido: como un texto 
+    nuevoJuego.classList.add('juegos', 'fondo-4');
+
+    nuevoJuego.innerText = "Halo Wars 2";
+    apendChild mete texto en bruto         
+    listaDeJuegos.append(nuevoJuego);
+    //Eliminar
+    nuevoJuego.remove();
